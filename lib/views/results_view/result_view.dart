@@ -7,9 +7,13 @@ class ResultView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Color(0xff84DCC4),
-      body: ResultViewBody(),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Results'),
+        backgroundColor: const Color(0xff84DCC4),
+      ),
+      backgroundColor: const Color(0xff84DCC4),
+      body: const ResultViewBody(),
     );
   }
 }
